@@ -5,22 +5,21 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: projects
-  label: Projects
+  path: rings
+  label: Rings
   create: documents
   match: "**/*.md"
   templates:
-  - project
-- type: directory
-  path: journal
-  label: Journal
-  create: documents
-  match: "**/*.md"
-  templates:
-  - journal
+  - theme-configuration
+  - theme-configuration
 - type: document
-  path: data/theme.json
-  label: Theme config
+  path: about
+  label: About
+  match: "**/*"
+- type: document
+  path: contact
+  label: Contact
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
