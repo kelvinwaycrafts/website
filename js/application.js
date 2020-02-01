@@ -12,6 +12,6 @@
 })();
 
 
-function hello() {
-alert('Hello');
+function openetsy() {
+    window.open("https://www.etsy.com/uk/shop/KelvinwayCrafts","_self")
 }
