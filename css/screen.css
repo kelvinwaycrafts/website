@@ -5,7 +5,7 @@ html, body { margin: 0; padding: 0; }
 
 body { font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial"; -webkit-font-smoothing: antialiased; }
 
-a { color: #7d59f2; text-decoration: none; }
+a { color: #ffffff; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
@@ -99,7 +99,7 @@ blockquote .quote:after { content: close-quote; }
 
 .product-container .product-details { flex: 2 1 500px; text-align: left; margin-left: 40px; }
 
-.product-container .product-details h4 { color: #7d59f2; }
+.product-container .product-details h4 { color: #ffffff; }
 
 .product-container form { border: 1px solid #444; padding: 20px; border-radius: 2px; }
 
@@ -137,7 +137,7 @@ blockquote .quote:after { content: close-quote; }
 
 .staff .position { font-size: 1.3rem; color: #666; }
 
-.story-points h3 { font-size: 1.3rem; margin: 0; color: #7d59f2; }
+.story-points h3 { font-size: 1.3rem; margin: 0; color: #ffffff; }
 
 .map { height: 499px; border: 1px solid #DDDDDD; border-radius: 3px; }
 
@@ -159,15 +159,15 @@ blockquote .quote:after { content: close-quote; }
 
 .contact-box .contact-details a { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
 
-.button a, .button button, input[type=submit] { color: #fff; text-decoration: none; padding: 15px 30px; background: #7d59f2; border-radius: 3px; border: 1px solid #a288f6; -webkit-appearance: none; }
+.button a, .button button, input[type=submit] { color: #fff; text-decoration: none; padding: 15px 30px; background: #ffffff; border-radius: 3px; border: 1px solid white; -webkit-appearance: none; }
 
-.button a:hover, .button button:hover, input[type=submit]:hover { background: #582aee; cursor: pointer; }
+.button a:hover, .button button:hover, input[type=submit]:hover { background: #e6e6e6; cursor: pointer; }
 
 .button a:active, .button button:active, input[type=submit]:active { border-width: 1px; border-top: 3px solid transparent; }
 
 .button.alt a { background: rgba(255, 255, 255, 0.15); border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.3); padding: 16px 50px; }
 
-.button.alt a:hover { background: #fff; color: #7d59f2; }
+.button.alt a:hover { background: #fff; color: #ffffff; }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 
@@ -191,12 +191,12 @@ input, textarea, select { padding: 10px; font-size: 1em; }
 
 input, textarea { outline: none; border: 1px solid #DDDDDD; }
 
-input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus { box-shadow: 0 0 5px #7d59f2; border: 1px solid #7d59f2; }
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus { box-shadow: 0 0 5px #ffffff; border: 1px solid #ffffff; }
 
 @media (max-width: 849px) { .nav-open nav { border: 0; z-index: 2; }
   .nav-open nav a { display: block; } }
 
-header { color: #fff; padding: 20px 0 59px 0; background: linear-gradient(135deg, #7d59f2 0%, #e371f6 100%); position: relative; }
+header { color: #fff; padding: 20px 0 59px 0; background: linear-gradient(135deg, #ffffff 0%, #e371f6 100%); position: relative; }
 
 header p { margin: 0; }
 
@@ -259,7 +259,7 @@ footer .footer-columns > li ul li { font-size: 1.1rem; margin: 11px 0; }
 
 footer .footer-columns > li ul li a { white-space: nowrap; color: #999; }
 
-footer .footer-columns .about svg path { fill: #7d59f2; }
+footer .footer-columns .about svg path { fill: #ffffff; }
 
 footer .footer-columns p { font-size: 1.1rem; color: #999; }
 
