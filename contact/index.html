@@ -128,7 +128,10 @@
 	<section class="page">
 		<div class="container " data-cms-content-wrapper="/_layouts/page.html">
 			<div class="contact-box">
-	<form action="/contact-success/" method="post" class="contact-form">
+	<form action="https://formspree.io/info@kelvinwaycrafts.com" method="post">
+	     <div class="hpot">
+         <label>Leave this field empty: <input name="_gotcha"></label>
+        </div>
 		<h3>Send us a message</h3>
 		<label for="name">Full Name</label>
 		<input type="text" name="name" id="name" placeholder="Enter your name..." autofocus>
@@ -139,7 +142,7 @@
 		<label for="message">Message</label>
 		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
-		<input type="hidden" name="_to" value="info@kelvinwaycrafts.com">
+		<input type="hidden" name="_to" value="">
 		<input type="text" name="_gotcha" style="display: none;">
 
 		<input type="submit" value="Send Message">
@@ -148,6 +151,10 @@
 	<div class="contact-details">
 		<div class="map" id="map"></div>
 </div>
+
+.hpot {
+  display: none;
+}
 
 <script type="text/javascript">
 	window.mapData = {"latitude":55.8598892,"longitude":-4.2608393,"address":"Glasgow, Scotland","zoom":13};
