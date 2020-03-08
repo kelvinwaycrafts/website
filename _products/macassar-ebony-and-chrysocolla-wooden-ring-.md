@@ -90,7 +90,7 @@ sizes UK:
 styles:
   - name: Macassar Ebony and Chrysocolla Wooden Ring.
     color:
-    image: /uploads/ring1.png
+    image: /uploads/chrysocolla-ring.png
 ---
 
 A beautiful and unique wooden ring made from carefully selected materials In our workshop in Scotland. The outer portion of this design consists of Macassar Ebony with a stone&nbsp; inlay of Chrysocolla. An inner layer of wood is made from Maple.

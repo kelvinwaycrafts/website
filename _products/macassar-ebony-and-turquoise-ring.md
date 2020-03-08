@@ -88,6 +88,6 @@ sizes UK:
 styles:
   - name: Macassar Ebony and Turquoise Ring
     color:
-    image: /uploads/malachite1-web-1.JPG
+    image: /uploads/turquoise-ring.jpg
 ---
 
