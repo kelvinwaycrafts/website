@@ -7,13 +7,13 @@ description: >-
   Rosewood with a stone  inlay of Lapis Lazuli. An inner layer of wood is made
   from maple.
 
-
+  <br/><br/>
   Lapis Lazuli is a deep, rich, ocean blue  naturally occuring mineral sourced
   from the United States, while Santos Rosewood is a hardwood which has a rusty
   brown hue with dark flecks. Together these provide a stunning contrast quite
   diffrent from any other ring you will own.
-
-
+  
+  <br/><br/>
   Each ring requires several days to produce and is is handmade to order. Orders
   can usually be shipped within one week. Before work can commence you must
   specify your ring size in either the UK or US scale. We normally recommend a

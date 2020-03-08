@@ -1,5 +1,5 @@
 ---
-name: Macassar Ebony and Malechite Wooden Ring
+name: Macassar Ebony and Malachite Wooden Ring
 price: '90'
 description: >-
   Malachite is a lush green mineral used since ancient times for both its
@@ -9,7 +9,7 @@ description: >-
   applied to the inside of the ring. Please specify which you would prefer when
   you order.
 
-
+  <br/><br/>
   Each ring requires several days to produce and is is handmade to order. Orders
   can usually be shipped within one week. Before work can commence you must
   specify your ring size in either the UK or US scale. We normally recommend a
@@ -84,7 +84,7 @@ sizes UK:
   - UK Z
   - UK Z 1/2
 styles:
-  - name: Macassar Ebony and Malechite Wooden Ring
+  - name: Macassar Ebony and Malachite Wooden Ring
     color:
     image: /uploads/malachite1-web.JPG
 ---

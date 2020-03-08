@@ -7,11 +7,11 @@ description: >-
   Macassar Ebony with a stone inlay of Turquoise . The inner layer of this ring
   is made from Mahogany.
 
-
+  <br/><br/>
   Prized since ancient times the sky blue Turquoise in this design displays a
   stunning contrast to the dark hues of the Macassar Ebony.
 
-
+  <br/><br/>
   Each ring requires several days to produce and is is handmade to order. Orders
   can usually be shipped within one week. Before work can commence you must
   specify your ring size in either the UK or US scale. We normally recommend a

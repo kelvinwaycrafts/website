@@ -1,5 +1,5 @@
 ---
-name: Macassar Ebony and Chrysocolla Wooden Ring.
+name: Macassar Ebony and Chrysocolla Wooden Ring
 price: '90.00'
 description: >-
   A beautiful and unique wooden ring made from carefully selected materials In
@@ -8,10 +8,12 @@ description: >-
   made from Maple.
 
 
+  <br/><br/>
   Chrysocolla is a wonderfully blue/green naturally occuring mineral sourced
   from the United States, while Macassar Ebony is a dark coloured hardwood which
   ranges from golden brown to black in hue. Together these provide a stunning
   contrast quite diffrent from any other ring you will own.
+  <br/><br/>
 
 
   Each ring requires several days to produce and is is handmade to order. Orders
@@ -88,13 +90,8 @@ sizes UK:
   - UK Z
   - UK Z 1/2
 styles:
-  - name: Macassar Ebony and Chrysocolla Wooden Ring.
+  - name: Macassar Ebony and Chrysocolla Wooden Ring
     color:
     image: /uploads/chrysocolla-ring.png
 ---
 
-A beautiful and unique wooden ring made from carefully selected materials In our workshop in Scotland. The outer portion of this design consists of Macassar Ebony with a stone&nbsp; inlay of Chrysocolla. An inner layer of wood is made from Maple.
-
-Chrysocolla is a wonderfully blue/green naturally occuring mineral sourced from the United States, while Macassar Ebony is a dark coloured hardwood which ranges from golden brown to black in hue. Together these provide a stunning contrast quite diffrent from any other ring you will own.
-
-Each ring requires several days to produce and is is handmade to order. Orders can usually be shipped within one week. Before work can commence you must specify your ring size in either the UK or US scale. We normally recommend a ring width of 6 to 7 millimeters for smaller sized rings and up to 8 millimeters wider for larger sizes. Please message us if you would like advice on any aspect of sizing or design.

@@ -4,14 +4,14 @@ price: '90'
 description: >-
   A beautiful and unique wooden ring made from carefully selected materials In
   our workshop in Scotland.
-
+  <br/><br/>
 
   A rich dark Macasser Ebony surrounds induvidually inlaid Jasper and Malachite
   stones in this tasteful, but more colourful design. Maple is the lighter
   coloured wood on the inside of the pictured rings, while the Mahogany is the
   reddish brown. Please specify which you would prefer when you order.
 
-
+  <br/><br/>
   Each ring requires several days to produce and is is handmade to order. Orders
   can usually be shipped within one week. Before work can commence you must
   specify your ring size in either the UK or US scale. We normally recommend a
