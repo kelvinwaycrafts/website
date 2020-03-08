@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		{% seo %}
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" />
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png" />
+		
+
+		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+			<script>
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', '{{ site.google_analytics_key }}', 'auto');
+				ga('send', 'pageview');
+			</script>
+			<script async src='https://www.google-analytics.com/analytics.js'></script>
+		{% endif %}
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %} <span>{{ site.title }}</span></a></div>
+				{% include navigation.html %}
+			</div>
+
+			<section class="hero">
+				<div class="text-container">
+					{% if page.hero %}
+						<h2>{{ page.hero }}</h2>
+					{% elsif page.name %}
+						<h2>{{ page.name }}</h2>
+					{% endif %}
+
+					{% if page.subtitle %}
+						<p>{{ page.subtitle }}</p>
+					{% endif %}
+				</div>
+			</section>
+		</header>
+		{{ content }}
+		<footer>
+			<div class="container">
+				<ul class="footer-columns">
+					<li class="about">
+						<div class="company-name">{% include logo.html %} <span>{{ site.title }}</span></div>
+						<p class="editable">If you have an idea for a something not shown contact us with your requirements.</p>
+					</li>
+
+					<li class="footer-nav">
+						<h4>General</h4>
+						<ul>
+							<li><a href="/">Products</a></li>
+							<li><a href="/about/">Our Story</a></li>
+							<li><a href="/contact/">Contact</a></li>
+						</ul>
+					</li>
+
+					<li class="footer-nav">
+						<h4>Help</h4>
+						<ul>
+							<li><a href="/shipping/">Shipping</a></li>
+							<li><a href="/returns/">Returns</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<h4>Contact Us</h4>
+						<p>Need help with something? <a href="/contact/">Get in touch</a>.
+						</p><p class="email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+
+						<div class="social-icons">
+							<a class="instagram" href="https://www.instagram.com/kelvinwaycrafts/">{% include social-icon.html icon="Instagram" %}</a>
+							<a class="pinterest" href="https://www.pinterest.co.uk/e7ada066bb46a2c492038e9b81577d/">{% include social-icon.html icon="Pinterest" %}</a>
+						</div>
+					</li>
+				</ul>
+				<p class="copyright">All Rights Reserved &copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+			</div>
+		</footer>
+		<script>
+			document.getElementById("open-nav").onclick = function () {
+				document.body.classList.toggle("nav-open");
+				return false;
+			};
+		</script>
+		<script src="{{ site.baseurl }}/js/application.js" type="text/javascript"></script>
+	</body>
+</html>

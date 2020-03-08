@@ -1,0 +1,16 @@
+- name: Products
+  link: /
+  new_window: false
+  highlight: false
+- name: Our Story
+  link: /about/
+  new_window: false
+  highlight: false
+- name: Contact
+  link: /contact/
+  new_window: false
+  highlight: false
+- name: Buy on Etsy
+  link: 'https://www.etsy.com/uk/shop/KelvinwayCrafts'
+  new_window: true
+  highlight: true

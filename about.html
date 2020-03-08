@@ -1,0 +1,26 @@
+---
+title: Our Story
+hero: Our story
+---
+
+<p class="editor-link" style="text-align: center; position: relative;
+    top: -185px;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+<ul class="staff">
+	{% for person in site.staff_members %}
+		<li>
+			<div class="staff-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+			<div class="name">{{ person.name }}</div>
+		</li>
+	{% endfor %}
+</ul>
+
+<div class="thirds story-points">
+	<div>
+		<h3 class="editable">
+			Passion
+		</h3>
+		<p class="editable">
+			Hand crafting custom rings from wood and stone to create truly unique products for our customers.
+		</p>
+	</div>
+</div>
